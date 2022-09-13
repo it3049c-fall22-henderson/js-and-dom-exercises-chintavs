@@ -14,11 +14,9 @@ form.addEventListener('submit',function(e){
 passwordToggle.addEventListener('click', function(){
 	if (passwordInput.getAttribute("type") == "password") {
 		passwordInput.setAttribute("type", "text")
-		// passwordToggle.classList.remove("bi-eye-slash")
 	}
 	else
 	{
 		passwordInput.setAttribute("type", "password")
-		// passwordToggle.classList.add("bi-eye-slash")
 	}
 });
